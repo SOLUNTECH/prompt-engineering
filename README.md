@@ -12,6 +12,6 @@ With this resources you will have a bunch of templates that will allow you get b
 
 - [**Inferring Prompts**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-inferring-prompts.md)
 
-- [**Expanding Prompts**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/5-expanding-prompts.md)
+- [**Transforming Prompts**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/5-transforming-prompts.md)
 
-- [**Transforming Prompts**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/6-transforming-prompts.md)
+- [**Expanding Prompts**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/6-expanding-prompts.md)
