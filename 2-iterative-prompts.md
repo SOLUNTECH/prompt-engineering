@@ -4,17 +4,19 @@ In this lesson, you'll iteratively analyze and refine your prompts to generate m
 
 ## **Content Table**
 
-- [**Generate a marketing product description from a product fact sheet**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#principle-1-write-clear-and-specific-instructions)
+- [**Generate a marketing product description from a product fact sheet**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/2-iterative-prompts.md#principle-1-write-clear-and-specific-instructions)
 
-- [**Issue 1: The text is too long**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#issue-1-the-text-is-too-long)
+- [**Issue 1: The text is too long**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/2-iterative-prompts.md#issue-1-the-text-is-too-long)
 
-- [**Issue 2. Text focuses on the wrong details**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#issue-2-text-focuses-on-the-wrong-details)
+- [**Issue 2. Text focuses on the wrong details**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/2-iterative-prompts.md#issue-2-text-focuses-on-the-wrong-details)
 
-- [**Issue 3. Description needs a table of dimensions**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#issue-3-description-needs-a-table-of-dimensions)
+- [**Issue 3. Description needs a table of dimensions**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/2-iterative-prompts.md#issue-3-description-needs-a-table-of-dimensions)
 
 ---
 
 ## Generate a marketing product description from a product fact sheet
+
+`Example prompt:`
 
 ```text
 Your task is to help a marketing team create a 
@@ -68,6 +70,8 @@ COUNTRY OF ORIGIN
 ## Issue 1: The text is too long
 
 - Limit the number of words/sentences/characters.
+
+`Example prompt:`
 
 ```text
 Your task is to help a marketing team create a 
@@ -124,7 +128,7 @@ COUNTRY OF ORIGIN
 
 - Ask it to focus on the aspects that are relevant to the intended audience.
 
-Example 1:
+`Example prompt 1:`
 
 ```text
 Your task is to help a marketing team create a 
@@ -181,7 +185,7 @@ COUNTRY OF ORIGIN
 - Italy```
 ```
 
-Example 2:
+`Example prompt 2:`
 
 ```text
 Your task is to help a marketing team create a 
@@ -244,6 +248,8 @@ COUNTRY OF ORIGIN
 ## Issue 3. Description needs a table of dimensions
 
 - Ask it to extract information and organize it in a table.
+
+`Example prompt:`
 
 ```text
 Your task is to help a marketing team create a 
