@@ -10,7 +10,7 @@ With this resources you will have a bunch of templates that will allow you get b
 
 - [**Summarizing Prompts**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/3-summarizing-prompts.md)
 
-- [**Infering Prompts**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-infering-prompts.md)
+- [**Inferring Prompts**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-inferring-prompts.md)
 
 - [**Expanding Prompts**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/5-expanding-prompts.md)
 

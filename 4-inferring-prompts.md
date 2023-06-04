@@ -3,23 +3,23 @@ In this lesson, you will infer sentiment and topics from product reviews and new
 
 ## **Content Table**
 
-- [**Product review text**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-infering-prompts.md#product-review-text)
+- [**Product review text**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-inferring-prompts.md#product-review-text)
 
-- [**Sentiment (positive/negative)**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-infering-prompts.md#sentiment-positive-negative)
+- [**Sentiment (positive/negative)**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-inferring-prompts.md#sentiment-positive-negative)
 
-- [**Identify types of emotions**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-infering-prompts.md#identify-types-of-emotions)
+- [**Identify types of emotions**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-inferring-prompts.md#identify-types-of-emotions)
 
-- [**Identify anger**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-infering-prompts.md#identify-anger)
+- [**Identify anger**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-inferring-prompts.md#identify-anger)
 
-- [**Extract product and company name from customer reviews**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-infering-prompts.md#extract-product-and-company-name-from-customer-reviews)
+- [**Extract product and company name from customer reviews**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-inferring-prompts.md#extract-product-and-company-name-from-customer-reviews)
 
-- [**Doing multiple tasks at once**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-infering-prompts.md#doing-multiple-tasks-at-once)
+- [**Doing multiple tasks at once**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-inferring-prompts.md#doing-multiple-tasks-at-once)
 
-- [**Inferring topics**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-infering-prompts.md#inferring-topics)
+- [**Inferring topics**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-inferring-prompts.md#inferring-topics)
 
-- [**Infer 5 topics**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-infering-prompts.md#infer-5-topics)
+- [**Infer 5 topics**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-inferring-prompts.md#infer-5-topics)
 
-- [**Make a news alert for certain topics**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-infering-prompts.md#make-a-news-alert-for-certain-topics)
+- [**Make a news alert for certain topics**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/4-inferring-prompts.md#make-a-news-alert-for-certain-topics)
 
 ---
 
