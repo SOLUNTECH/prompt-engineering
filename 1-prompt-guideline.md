@@ -4,7 +4,7 @@ In this lesson, you'll practice two prompting principles and their related tacti
 
 ## Prompting Principles
 
-**Content Table**
+### **Content Table**
 
 - [**Principle 1: Write clear and specific instructions**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#principle-1-write-clear-and-specific-instructions)
 
@@ -21,7 +21,7 @@ In this lesson, you'll practice two prompting principles and their related tacti
 
   - [Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#tactic-2-instruct-the-model-to-work-out-its-own-solution-before-rushing-to-a-conclusion)
 
-- [**Model limitations**]()
+- [**Model limitations**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#model-limitations-hallucinations)
 
 ---
 

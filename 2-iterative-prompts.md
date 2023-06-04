@@ -1,6 +1,18 @@
-# Iterative Prompt
+# Iterative Prompt Develelopment
 
 In this lesson, you'll iteratively analyze and refine your prompts to generate marketing copy from a product fact sheet.
+
+## **Content Table**
+
+- [**Generate a marketing product description from a product fact sheet**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#principle-1-write-clear-and-specific-instructions)
+
+- [**Issue 1: The text is too long**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#issue-1-the-text-is-too-long)
+
+- [**Issue 2. Text focuses on the wrong details**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#issue-2-text-focuses-on-the-wrong-details)
+
+- [**Issue 3. Description needs a table of dimensions**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#issue-3-description-needs-a-table-of-dimensions)
+
+---
 
 ## Generate a marketing product description from a product fact sheet
 
