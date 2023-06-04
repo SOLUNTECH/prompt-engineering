@@ -4,8 +4,24 @@ In this lesson, you'll practice two prompting principles and their related tacti
 
 ## Prompting Principles
 
-- **Principle 1: Write clear and specific instructions**
-- **Principle 2: Give the model time to “think”**
+**Content Table**
+
+- [**Principle 1: Write clear and specific instructions**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#principle-1-write-clear-and-specific-instructions)
+
+  - [Tactic 1: Use delimiters](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#tactic-1-use-delimiters-to-clearly-indicate-distinct-parts-of-the-input)
+  - [Tactic 2: Ask for a structured output](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#tactic-2-ask-for-a-structured-output)
+
+  - [Tactic 3: Ask the model to check whether conditions are satisfied](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#tactic-3-ask-the-model-to-check-whether-conditions-are-satisfied)
+
+  - [Tactic 4: "Few-shot" prompting](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#tactic-4-few-shot-prompting)
+
+- [**Principle 2: Give the model time to “think”**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#principle-1-write-clear-and-specific-instructions)
+
+  - [Tactic 1: Specify the steps required to complete a task](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#tactic-1-specify-the-steps-required-to-complete-a-task)
+
+  - [Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion](https://github.com/SOLUNTECH/prompt-engineering/blob/main/1-prompt-guideline.md#tactic-2-instruct-the-model-to-work-out-its-own-solution-before-rushing-to-a-conclusion)
+
+- [**Model limitations**]()
 
 ---
 
@@ -14,6 +30,8 @@ In this lesson, you'll practice two prompting principles and their related tacti
 #### **Tactic 1:** Use delimiters to clearly indicate distinct parts of the input
 
 - Delimiters can be anything like: ```, """, < >, `<tag> </tag>`, `:`
+
+`Example prompt:`
 
 ```text
 Summarize the text delimited by triple backticks into a single sentence.
@@ -25,6 +43,8 @@ Summarize the text delimited by triple backticks into a single sentence.
 
 - JSON, HTML
 
+`
+
 ```text
 Generate a list of three made-up book titles along with their authors and genres. 
 Provide them in JSON format with the following keys: 
@@ -33,7 +53,7 @@ book_id, title, author, genre.
 
 #### **Tactic 3:** Ask the model to check whether conditions are satisfied
 
-Example 1:
+`Example prompt 1:`
 
 ```text
 You will be provided with text delimited by triple quotes. 
@@ -51,7 +71,7 @@ Making a cup of tea is easy! First, you need to get some water boiling. While th
 """
 ```
 
-Example 2:
+`Example prompt 2:`
 
 ```text
 You will be provided with text delimited by triple quotes. 
@@ -71,6 +91,8 @@ The sun is shining brightly today, and the birds are singing. It's a beautiful d
 
 #### **Tactic 4:** "Few-shot" prompting
 
+`Example prompt:`
+
 ```text
 Your task is to answer in a consistent style.
 
@@ -87,7 +109,7 @@ Your task is to answer in a consistent style.
 
 #### **Tactic 1:** Specify the steps required to complete a task
 
-Example 1:
+`Example prompt 1:`
 
 ```text
 Perform the following actions: 
@@ -102,9 +124,9 @@ Text:
 ```In a charming village, siblings Jack and Jill set out on a quest to fetch water from a hilltop well. As they climbed, singing joyfully, misfortune struck—Jack tripped on a stone and tumbled down the hill, with Jill following suit. Though slightly battered, the pair returned home to comforting embraces. Despite the mishap, their adventurous spirits remained undimmed, and they continued exploring with delight.```
 ```
 
-Example 2:
-
 #### Ask for output in a specified format
+
+`Example prompt 2:`
 
 ```text
 Your task is to perform the following actions: 
@@ -125,6 +147,8 @@ Text: <In a charming village, siblings Jack and Jill set out on a quest to fetch
 ```
 
 #### **Tactic 2:** Instruct the model to work out its own solution before rushing to a conclusion
+
+`Example prompt:`
 
 ```text
 Determine if the student's solution is correct or not.
@@ -150,6 +174,8 @@ Total cost: 100x + 250x + 100,000 + 100x = 450x + 100,000
 #### Note that the student's solution is actually not correct
 
 #### We can fix this by instructing the model to work out its own solution first
+
+`Example prompt:`
 
 ```text
 Your task is to determine if the student's solution is correct or not.
@@ -205,6 +231,8 @@ Actual solution:
 ## Model Limitations: Hallucinations
 
 - Boie is a real company, the product name is not real.
+
+`Example prompt:`
 
 ```text
 Tell me about AeroGlide UltraSlim Smart Toothbrush by Boie
