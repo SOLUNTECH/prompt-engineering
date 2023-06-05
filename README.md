@@ -15,3 +15,5 @@ With this resources you will have a bunch of templates that will allow you get b
 - [**Transforming Prompts**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/5-transforming-prompts.md)
 
 - [**Expanding Prompts**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/6-expanding-prompts.md)
+
+- [**Chatbot prompts**](https://github.com/SOLUNTECH/prompt-engineering/blob/main/7-chatbot-prompts.md)
